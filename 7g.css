@@ -1,0 +1,149 @@
+/* Navigation Bar */
+
+.Nav-Div, .Choose-Category-Div, .Search-Bar {
+    display: inline-block;
+}
+
+.Background {
+    height: 800px;
+    width: 1280px;
+    background-color: rgb(238, 231, 231);
+}
+
+.Choose-Category-Text {
+    position: fixed;
+    top: 50px;
+    left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.Search-Bar {
+    position: fixed;
+    top: 60px;
+    left: 600px; 
+    display: flex;
+    align-items: center;
+    background-color: #fff; 
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+    width: 320px;
+}
+
+.Search-Bar:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.search-icon {
+    font-size: 20px;
+    color: rgb(111, 78, 55);
+    margin-right: 10px;
+}
+
+.Search-Bar-Input {
+    padding-left: 10px;
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: rgb(111, 78, 55);
+    font-family: Arial, sans-serif;
+}
+
+.Search-Bar-Input::placeholder {
+    color: rgb(111, 78, 55);
+}
+
+/* Navigation Side Bar */
+
+.Hamburger-Div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: fixed;
+    top: 40px;
+    left: 70px;
+    height: 800px;
+    width: 1280px;
+    background-color: white;
+}
+
+.Hamburger-Icon-1, .Hamburger-Icon-2, .Hamburger-Icon-3 {
+    height: 5px;
+    width: 30px;
+    background-color: rgb(111, 78, 55);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Category Buttons */
+
+.Category-Buttons {
+    display: flex;
+    position: fixed;
+    top: 160px;
+    left: 250px;
+    gap: 20px;
+}
+
+.All-Category-Button {
+    height: 80px;
+    width: 65px;
+    border-radius: 15px;
+    background-color: white;
+    border: 0.2px solid rgba(111, 78, 55, 1);
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.All-Category-Button:hover {
+    background-color: rgba(111, 78, 55, 1);
+    color: white;
+}
+
+.All-Category-Button:active {
+    opacity: 0.5;
+}
+
+.Coffee-Category-Button {
+    height: 80px;
+    width: 65px;
+    border-radius: 15px;
+    background-color: white;
+    border: 0.2px solid rgba(111, 78, 55, 1);
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.Coffee-Category-Button:hover {
+    background-color: rgba(111, 78, 55, 1);
+    color: white;
+}
+
+.Coffee-Category-Button:active {
+    opacity: 0.5;
+}
+
+.Juice-Category-Button {
+    height: 80px;
+    width: 65px;
+    border-radius: 15px;
+    background-color: white;
+    border: 0.2px solid rgba(111, 78, 55, 1);
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.Juice-Category-Button:hover {
+    background-color: rgba(111, 78, 55, 1);
+    color: white;
+}
+
+.Juice-Category-Button:active {
+    opacity: 0.5;
+}
